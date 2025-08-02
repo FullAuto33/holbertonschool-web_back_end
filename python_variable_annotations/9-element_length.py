@@ -3,6 +3,6 @@
 from typing import Iterable, Sequence, List, Tuple
 
 
-def element_length(lst: Iterable) -> List[Tuple[int, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """returns a list of tuples"""
-    return [(i, len(x)) for i, x in enumerate(lst)]
+    return [(x, len(x)) for x in lst]
