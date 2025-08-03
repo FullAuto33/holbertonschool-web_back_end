@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""measure runtime of async_comprehension""""
+"""measure runtime of async_comprehension"""
 import asyncio
 from importlib import import_module as using
 import time
